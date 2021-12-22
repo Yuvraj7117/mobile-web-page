@@ -1,0 +1,196 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.upper-container{
+
+    position:relative;
+    top:13rem;
+    left:40%;
+    text-align: center;
+}
+.line{
+    width:26rem;
+    height:0px;
+    border-top: 1px solid black;
+    
+}
+.heading{
+    width:13rem;
+    height:2rem;
+    position:absolute ;
+    left:6.5rem;
+    top:-1rem;
+    text-align: center;
+    background-color: white;
+    font-size:1.8rem ;
+    font-weight: bolder;
+
+}
+.backbutton{
+    position: absolute;
+    left:8%;
+    top:2rem;
+    font-size: 1.5rem;
+  
+}
+
+#button{
+    color:red;
+   
+    font-size: 2rem;
+    display: inline-block;
+}
+
+#button:hover{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.back{
+    display: inline-block;
+    position:absolute;
+    left:2rem;
+}
+
+
+.lower-container{
+    width:15rem;
+    height:20rem;
+    border:1px solid red;
+    margin-top:10rem;
+    position:absolute;
+    top:15%;
+    left:45%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 1px;
+
+}
+
+.lower-container:hover{
+    box-shadow: 5px 5px 15px 2px;
+}
+
+.lower-heading{
+    position:absolute;
+    top:1.5rem;
+    left:3.8rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    width:11rem;
+}
+.lower-body{
+    position: absolute;
+    top:5rem;
+    left:3.8rem;
+    font-size: 1.3rem;
+}
+.completed-task{
+    color: red;
+    padding-block: 2.5rem;
+    text-decoration: line-through;
+}
+
+#check{
+    width:1.3rem;
+    height:1.3rem;
+}
+
+#check:hover{
+    cursor: pointer;
+    width:1.5rem;
+    height:1.5rem;
+}
+
+#plus{
+    color:red;
+    font-size: 2.5rem;
+    position: absolute;
+    top:12rem;
+    right:-1rem;
+}
+
+#plus:hover{
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+#home{
+    
+    position:absolute;
+    left:50rem;
+    top:45rem;
+    font-size:2rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+#left-arrow{
+    position:relative;
+    left:20px;
+    cursor: pointer;
+
+}
+#right-arrow{
+    position:relative;
+    left:30px;
+    cursor: pointer;
+
+}
+
+
+@media(max-width:680px){
+
+    .upper-container{
+        position:absolute;
+        left:3rem;
+        top:8rem;
+    }
+
+    .line{
+        width:20rem;
+        position:absolute;
+        left:-2rem;
+    }
+
+    .heading{
+        position:absolute;
+        left:0rem;
+        width:12rem;
+    }
+
+    .backbutton{
+        position:absolute;
+        left:3rem;
+    }
+
+    .lower-container{
+        position:absolute;
+        left:2rem;
+        top:3rem;
+        width:15rem;
+    }
+   
+    #home{
+    
+        position:absolute;
+        left:100px;
+        top:750px;
+        font-size:2rem;
+        cursor: pointer;
+    }
+    #left-arrow{
+        position:relative;
+        left:20px;
+        cursor: pointer;
+    
+    }
+    #right-arrow{
+        position:relative;
+        left:30px;
+        cursor: pointer;
+    
+    }
+}

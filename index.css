@@ -1,0 +1,334 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.upper-container{
+    width:50%;
+    height:auto;
+    margin:30rem;
+    margin-top: 10rem;
+    display:flex;
+}
+
+.div1{
+     font-size: 3.5rem;
+     display:inline;
+     font-weight: 800;
+
+}
+
+.div2{ 
+    
+    font-size:2.5rem;
+    display:inline;
+    width:20rem;
+    position:absolute;
+    left:80rem;
+   
+}
+
+span{
+    font-weight: 100;
+    opacity:70%;
+}
+
+#plus{
+    width:30px;
+    height:30px;
+    border-radius: 50px;
+    border:none;
+    background-color: none;
+    color:red;
+    font-size:2.5rem;
+    position:absolute;
+    right:20rem;
+    top:1.5rem;
+
+}
+#plus:hover{
+    cursor: pointer;
+    width:55px;
+    height:55px;
+}
+
+
+.add{
+    width:20rem;
+    display:inline;
+    font-weight: 600;
+    padding:20px;
+    position:absolute;
+    left:0rem;
+   
+
+}
+
+
+
+.cards{
+    position: absolute;
+    top:17rem;
+    left:28rem;
+}
+
+.card{
+    width:15rem;
+    height:20rem;
+    border:2px solid red;
+    display:inline-block;
+    box-shadow: 5px 5px 20px 3px;
+    
+}
+
+.card:hover{
+
+    box-shadow: 10px 10px 40px 3px;
+}
+
+#card1{
+
+    position:absolute ;
+    left:0rem;
+    border-radius: 10px;
+}
+
+#heading{
+    color:red;
+    font-size: 1.8rem;
+    width:12rem;
+    border-bottom: 1px solid black;
+    margin-top:1rem;
+    margin-left:3rem;
+    align-items: center;
+
+
+}
+
+#card2{
+
+    position:absolute;
+    left:25rem;
+    border-radius: 10px;
+
+}
+
+#card3{
+
+    position:absolute;
+    left:50rem;
+    border-radius: 10px;
+}
+
+#check{
+    position:absolute;
+    top:62%;
+    right:80%;
+    margin-left: 5rem;
+    width:1rem;
+    height:1rem;
+
+}
+.p{
+    position:absolute;
+    top:50%;
+    right:48%;
+    margin-left: 5rem; 
+}
+
+#para1{
+    position: absolute;
+    top:30%;
+    right:10%;
+    font-size:1.3rem;
+    width:10rem;
+    color:red;
+    text-decoration: line-through;
+
+}
+
+
+#para2{
+    position: absolute;
+    top:60%;
+    right:10%;
+    font-size:1.3rem;
+    width:10rem;
+}
+
+.h:hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+.p:hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+#check:hover{
+        cursor: pointer;
+        width:1.3rem;
+        height:1.3rem;
+    
+}
+
+ #home{
+    
+    position:absolute;
+    left:50rem;
+    font-size:2rem;
+    cursor: pointer;
+}
+
+#left-arrow{
+    position:relative;
+    left:20px;
+    cursor: pointer;
+
+}
+#right-arrow{
+    position:relative;
+    left:30px;
+    cursor: pointer;
+
+} 
+
+
+
+
+
+
+@media(max-width:600px){
+    .upper-container{
+        width:20rem;
+        height:auto;
+        font-size: 1rem;
+        margin:2rem;
+        display:inline-block;
+    }
+
+    span{
+        font-size: 2rem;
+    }
+
+    .div1{
+        display:inline;
+        font-size: 2rem;
+    }
+
+    .div2{
+        
+        width:10rem;
+    }
+    #plus{
+        position: absolute;
+        left:-60rem;
+        top:-2.5rem;
+    
+    }
+    .add{
+        display:none;
+    }
+
+    .cards{
+        position:absolute;
+        top:8rem;
+        left:3rem;
+        border:1px solid red;
+        display:table-row;
+      
+    }
+
+    #card1{
+        width:17rem;
+        height:4rem;
+        border-radius: 10px;
+      
+
+    }
+    #card2{
+        width:17rem;
+        height:4rem;
+        border-radius: 10px;
+        position:absolute;
+        top:7.5rem;
+        left:0px;
+    }
+    #card3{
+        width:17rem;
+        height:4rem;
+        border-radius: 10px;
+        position:absolute;
+        left:0rem;
+        top:15rem;
+    }
+
+    .h{
+        border-bottom: white;
+    }
+    #heading{
+        border:none;
+    
+    }
+
+    .p{
+        display: none;
+    }
+
+    #check{
+        display:none;
+    }
+    #card4{
+        width:17rem;
+        height:4rem;
+        border-radius: 10px;
+        position:absolute;
+        left:0rem;
+        top:22.5rem;
+    }
+    #card5{
+        width:17rem;
+        height:4rem;
+        border-radius: 10px;
+        position:absolute;
+        left:0rem;
+        top:30rem;
+    }
+
+    #home{
+    
+        position:absolute;
+        left:100px;
+        top:750px;
+        font-size:2rem;
+        cursor: pointer;
+    }
+    
+    #left-arrow{
+        position:relative;
+        left:20px;
+        cursor: pointer;
+    
+    }
+    #right-arrow{
+        position:relative;
+        left:30px;
+        cursor: pointer;
+    
+    } 
+}
+
+@media(min-width:680px){
+    #card4{
+        display:none;
+    }
+    #card5{
+        display:none;
+    }
+
+}
+
+
